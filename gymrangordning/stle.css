@@ -1,18 +1,16 @@
-main {
-    width: 100%;
-    background-color: white;
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+.bildddddd{
+    width:auto;
+    height: auto;
+    display: f
 }
 
-
-@media screen and (min-width: 600px) {
-    main {
-        background-color:grey;
-    }
-}
-
-
-@media screen and (min-width: 960px) {
-   main {
-    background-color: grey;
-   }
+body{
+    background-color: ;
 }
