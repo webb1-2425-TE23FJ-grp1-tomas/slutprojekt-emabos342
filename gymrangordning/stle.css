@@ -1,16 +1,48 @@
 
+body {
+    margin: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color:#000000
+  }
+
+.active {
+    background-color: #14141f;
+  }
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
   
+.borderr{
+    width:auto;
+    height:auto
+}
+
 .bildddddd{
     width:auto;
     height: auto;
-    display: f
-}
-
-body{
-    background-color: ;
+    display: flex;
 }
