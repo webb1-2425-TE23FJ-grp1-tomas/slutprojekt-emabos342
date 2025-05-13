@@ -1,8 +1,13 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
 
 body {
     margin: 0;
     background-image: url("bilder/photo-1534438327276-14e5300c3a48.webp");
     background-size:cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -39,6 +44,9 @@ ul {
 .grid-center {
 display: flex;
 justify-content: center;
+padding-top: 0%;
+
+
 }
 
 #oooooo {
@@ -47,10 +55,20 @@ justify-content: center;
   font-size: 70px;
 }
 
+#ooooo {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgba(233, 233, 233, 0.705);
+  font-size: 40px;
+}
+
 .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    
     color: white;
+    justify-content: center;
+    align-items: center
+    
+
   }
   
 .borderr{
