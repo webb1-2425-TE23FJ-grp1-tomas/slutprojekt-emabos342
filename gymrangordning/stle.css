@@ -1,3 +1,8 @@
+@media screen and (min-width:600px) {
+}
+
+
+
 html, body {
   margin: 0;
   height: 100%;
@@ -62,14 +67,15 @@ padding-top: 0%;
 }
 
 .grid-container {
-    display: flex;
-    
-    color: white;
-    justify-content: center;
-    align-items: center
+      width: 50px;
+  border: 15px solid rgb(255, 255, 255);
+  padding: 500px;
+  margin: auto;
+}
+
     
 
-  }
+  
   
 .borderr{
     width:auto;
