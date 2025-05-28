@@ -1,4 +1,4 @@
-/* ===== BAS (desktop default) ===== */
+/*grunden*/
 
 html, body {
   margin: 0;
@@ -46,7 +46,7 @@ li a:hover {
   background-color: #0b0b11;
 }
 
-/* RUBRIKER */
+
 .grid-center {
   display: flex;
   flex-direction: column;
@@ -67,7 +67,7 @@ li a:hover {
   margin: 0.5rem 0;
 }
 
-/* KONTAINER */
+
 .grid-container {
   background-color: white;
   border-radius: 15px;
